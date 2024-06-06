@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('<h1>express app using watchtower!</h1>')
+  res.send('<h1>Now this should be updated automatically</h1>')
 })
 
 const PORT = 8080
